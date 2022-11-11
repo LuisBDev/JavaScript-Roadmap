@@ -1,42 +1,23 @@
 let result;
+
 result = Math.PI;
-console.log(result);
+//Redondear
+// result = Math.round(Math.PI());
 
-//Redondeando
-result = Math.round(2.6);
-console.log(result);
-
-//Redondear hacia arriba
-result = Math.ceil(2, 1);
-console.log(result);
-
-//Redondear hacia abajo
-result = Math.floor(2, 1);
-console.log(result);
-
-//sqr
 result = Math.sqrt(64);
+result = Math.abs(-320); //Absoluto
+
+result = Math.pow(2, 6);
+
+result = Math.min(2, 3, 5, 6);
+result = Math.max(1, 6, 2, 7, 12, 7234);
+
+result = Math.round(Math.random() * 100);
+
+
+
 console.log(result);
 
-//absoluto
-result = Math.abs(-233);
-console.log(result);
 
-//potencia
-result = Math.pow(2, 3);
-console.log(result);
 
-//min valor
-result = Math.min(-123, 3, 5, 6, 7, 111);
-console.log(result);
-
-//max valor
-result = Math.max(1, 2, 6, 123, 555);
-console.log(result);
-
-//random
-result = Math.random();
-console.log(result);
-
-result = Math.floor(Math.random() * 30);
 

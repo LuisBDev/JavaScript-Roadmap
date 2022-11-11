@@ -5,7 +5,7 @@ console.log(product4.length);
 //Eliminar del inicio blankspaces del inicio
 
 console.log(product4.trimStart()); //delete left
-console.log(product4.trimStart()); //delete right
+console.log(product4.trimEnd()); //delete right
 
 //delete both directions (newer function)
 console.log(product4.trimStart().trimEnd());

@@ -20,6 +20,7 @@ console.log(product5.slice(0, 5));
 console.log(product5.substring(0, 5));
 console.log(product5.substring(5, 0));
 //si a > b, la funcion .substring invierte el orden de a,b
+//--> console.log(product5.substring(5, 0)); ==  console.log(product5.substring(0, 5));
 
 
 //Uso de .charAt()
