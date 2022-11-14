@@ -28,5 +28,5 @@ carrito.forEach(producto => console.log(`${producto.nombre} - Precio: ${producto
 
 console.log("\n");
 
-console.table(nuevoArreglo); //Retorna nuevo arreglo
+console.table(nuevoArreglo); //Retorna nuevo arreglo.
 
